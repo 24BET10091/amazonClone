@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Nav-Logo {
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.Logo {
+    background-image: url("Amazon_Logo-2.png");
+    background-size: cover;
+    height: 50px;
+    width: 150%;
+}
+.border {
+    border: 2px solid transparent;
+} /* Used to create a solid hoverbox on elements in the site or 
+it can be said that a transparent boundary is created*/
+.border:hover {
+    border: 1.5px solid white;
+}
+.Nav-Address {
+    margin-left: 50px;
+}
+
+
+/**box 2**/
+.Add-First {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+
+.Add-Second {
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.Nav-Search {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #f08804;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.Search-select {
+    background-color: #f3f3fe;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border: none;
+}
+.Search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.Search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     color: #0f1111;
+}
+.Nav-Search:hover {
+    border: 2px solid orangered;
+}
+/**box4**/
+span {
+    font-size: 0.7rem;
+}
+.Nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box5**/
+.Nav-cart i {
+    font-size: 30px;
+
+
+} /**i (selector) is used to apply particular styling on only a particular icon**/
+.Nav-cart {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+/**panel**/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** Hero Section**/
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.hero-message a {
+    color: #007185;
+
+}
+/**shop-section**/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    width: 100%;
+    background-image: url("Box_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box2-img {
+    height: 300px;
+    width: 100%;
+    background-image: url("CleaningTool_home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p {
+    color: #007185;
+}
